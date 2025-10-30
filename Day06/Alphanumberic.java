@@ -10,9 +10,9 @@ public class Alphanumberic {
         String input = sc.nextLine();
 
         if (isAlphanumeric(input)) {
-            System.out.println("✅ The string contains only alphanumeric characters.");
+            System.out.println(" The string contains only alphanumeric characters.");
         } else {
-            System.out.println("❌ The string contains special characters or spaces.");
+            System.out.println(" The string contains special characters or spaces.");
         }
 
         sc.close();
